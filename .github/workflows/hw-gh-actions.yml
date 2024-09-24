@@ -1,0 +1,14 @@
+name: Exemplo de Workflow
+
+on:
+  workflow_dispatch:
+
+jobs:
+  initial_action_job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print Hello
+        run: echo "Hello"
+      - name: print Bye
+        run: echo "Bye"
+      
